@@ -1,0 +1,403 @@
+{
+  "CEREALS": {
+    "Wheat": {
+      "Wheat Rust": {
+        "description": "Rust diseases are caused by fungi that attack wheat leaves, stems, and grains",
+        "treatment": "Apply fungicides containing tebuconazole or propiconazole, use resistant varieties, practice crop rotation",
+        "prevention": "Plant resistant varieties, avoid excessive nitrogen, maintain proper spacing, remove crop debris"
+      },
+      "Wheat Blast": {
+        "description": "Wheat blast is a devastating fungal disease caused by Magnaporthe oryzae",
+        "treatment": "Apply fungicides containing azoxystrobin or pyraclostrobin, remove infected plants immediately",
+        "prevention": "Use certified disease-free seeds, practice crop rotation, maintain field hygiene"
+      },
+      "Wheat Scab": {
+        "description": "Fusarium head blight (scab) affects wheat heads and reduces grain quality",
+        "treatment": "Apply fungicides during flowering, harvest early if possible, clean contaminated grain",
+        "prevention": "Plant resistant varieties, avoid planting after corn, maintain proper drainage"
+      },
+      "Wheat Healthy": {
+        "description": "Wheat plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Rice": {
+      "Rice Blast": {
+        "description": "Rice blast is caused by Magnaporthe oryzae and affects leaves, stems, and panicles",
+        "treatment": "Apply fungicides containing tricyclazole or azoxystrobin, use resistant varieties",
+        "prevention": "Plant resistant varieties, avoid excessive nitrogen, maintain proper water management"
+      },
+      "Rice Brown Spot": {
+        "description": "Brown spot is caused by Bipolaris oryzae and affects rice leaves and grains",
+        "treatment": "Apply fungicides containing propiconazole, improve soil fertility",
+        "prevention": "Use balanced fertilization, maintain proper water levels, plant resistant varieties"
+      },
+      "Rice Bacterial Blight": {
+        "description": "Bacterial blight is caused by Xanthomonas oryzae and affects rice leaves",
+        "treatment": "Apply copper-based bactericides, use resistant varieties",
+        "prevention": "Use disease-free seeds, avoid overhead irrigation, maintain field hygiene"
+      },
+      "Rice Healthy": {
+        "description": "Rice plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, water management, and pest control"
+      }
+    },
+    "Maize/Corn": {
+      "Corn Northern Leaf Blight": {
+        "description": "Northern leaf blight is caused by the fungus Exserohilum turcicum",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, maintain proper spacing"
+      },
+      "Corn Common Rust": {
+        "description": "Common rust is caused by the fungus Puccinia sorghi",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, avoid overhead watering"
+      },
+      "Corn Gray Leaf Spot": {
+        "description": "Gray leaf spot is caused by the fungus Cercospora zeae-maydis",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, maintain proper spacing"
+      },
+      "Corn Southern Rust": {
+        "description": "Southern rust is caused by Puccinia polysora and affects corn leaves",
+        "treatment": "Apply fungicides containing azoxystrobin or pyraclostrobin",
+        "prevention": "Use resistant varieties, monitor weather conditions, apply preventive fungicides"
+      },
+      "Corn Healthy": {
+        "description": "Corn plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Barley": {
+      "Barley Scald": {
+        "description": "Scald is caused by Rhynchosporium secalis and affects barley leaves",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, maintain proper spacing"
+      },
+      "Barley Net Blotch": {
+        "description": "Net blotch is caused by Pyrenophora teres and affects barley leaves",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, avoid excessive nitrogen"
+      },
+      "Barley Healthy": {
+        "description": "Barley plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    }
+  },
+  "VEGETABLES": {
+    "Tomato": {
+      "Tomato Bacterial Spot": {
+        "description": "Bacterial spot is a common disease of tomato caused by Xanthomonas vesicatoria",
+        "treatment": "Apply copper-based fungicides, improve air circulation, avoid overhead watering, remove infected plant debris",
+        "prevention": "Use disease-free seeds, practice crop rotation, maintain proper spacing between plants"
+      },
+      "Tomato Early Blight": {
+        "description": "Early blight is caused by the fungus Alternaria solani",
+        "treatment": "Apply fungicides containing chlorothalonil or copper, remove infected leaves, improve air circulation",
+        "prevention": "Mulch around plants, avoid overhead watering, practice crop rotation"
+      },
+      "Tomato Late Blight": {
+        "description": "Late blight is caused by the oomycete Phytophthora infestans",
+        "treatment": "Apply fungicides containing chlorothalonil or copper, remove infected plants immediately",
+        "prevention": "Avoid overhead watering, ensure good drainage, practice crop rotation"
+      },
+      "Tomato Leaf Mold": {
+        "description": "Leaf mold is caused by the fungus Passalora fulva",
+        "treatment": "Apply fungicides, improve air circulation, reduce humidity",
+        "prevention": "Use resistant varieties, maintain proper spacing, avoid overhead watering"
+      },
+      "Tomato Septoria Leaf Spot": {
+        "description": "Septoria leaf spot is caused by the fungus Septoria lycopersici",
+        "treatment": "Apply fungicides containing chlorothalonil, remove infected leaves",
+        "prevention": "Practice crop rotation, avoid overhead watering, maintain clean garden"
+      },
+      "Tomato Spider Mites": {
+        "description": "Spider mites are tiny arachnids that feed on plant sap",
+        "treatment": "Apply insecticidal soap or neem oil, increase humidity, remove heavily infested leaves",
+        "prevention": "Regular monitoring, maintain proper humidity, avoid over-fertilization"
+      },
+      "Tomato Target Spot": {
+        "description": "Target spot is caused by the fungus Corynespora cassiicola",
+        "treatment": "Apply fungicides, improve air circulation, remove infected leaves",
+        "prevention": "Practice crop rotation, maintain proper spacing, avoid overhead watering"
+      },
+      "Tomato Yellow Leaf Curl Virus": {
+        "description": "Yellow leaf curl virus is transmitted by whiteflies",
+        "treatment": "Control whitefly populations, remove infected plants, apply systemic insecticides",
+        "prevention": "Use resistant varieties, control weeds, monitor for whiteflies"
+      },
+      "Tomato Mosaic Virus": {
+        "description": "Mosaic virus is transmitted by aphids and mechanical means",
+        "treatment": "Remove infected plants, control aphid populations, disinfect tools",
+        "prevention": "Use disease-free seeds, control aphids, practice good hygiene"
+      },
+      "Tomato Healthy": {
+        "description": "The tomato plant appears healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper watering, fertilization, and pest management"
+      }
+    },
+    "Potato": {
+      "Potato Early Blight": {
+        "description": "Early blight in potatoes is caused by Alternaria solani",
+        "treatment": "Apply fungicides containing chlorothalonil, remove infected foliage",
+        "prevention": "Practice crop rotation, maintain proper spacing, avoid overhead watering"
+      },
+      "Potato Late Blight": {
+        "description": "Late blight in potatoes is caused by Phytophthora infestans",
+        "treatment": "Apply fungicides containing chlorothalonil or copper, remove infected plants",
+        "prevention": "Avoid overhead watering, ensure good drainage, practice crop rotation"
+      },
+      "Potato Scab": {
+        "description": "Potato scab is caused by Streptomyces scabies and affects tuber surfaces",
+        "treatment": "Maintain soil pH around 5.2-5.5, use resistant varieties, rotate crops",
+        "prevention": "Avoid liming, maintain proper soil moisture, use certified seed potatoes"
+      },
+      "Potato Blackleg": {
+        "description": "Blackleg is caused by Pectobacterium atrosepticum and affects stems and tubers",
+        "treatment": "Remove infected plants, improve drainage, use certified seed",
+        "prevention": "Use disease-free seed potatoes, avoid waterlogging, practice crop rotation"
+      },
+      "Potato Healthy": {
+        "description": "The potato plant appears healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper watering, fertilization, and pest management"
+      }
+    },
+    "Pepper": {
+      "Pepper Bacterial Spot": {
+        "description": "Bacterial spot in peppers is caused by Xanthomonas vesicatoria",
+        "treatment": "Apply copper-based bactericides, improve air circulation, avoid overhead watering",
+        "prevention": "Use disease-free seeds, practice crop rotation, maintain proper spacing"
+      },
+      "Pepper Anthracnose": {
+        "description": "Anthracnose in peppers is caused by Colletotrichum species",
+        "treatment": "Apply fungicides containing chlorothalonil, remove infected fruits",
+        "prevention": "Avoid overhead watering, maintain proper spacing, practice crop rotation"
+      },
+      "Pepper Healthy": {
+        "description": "Pepper plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Cucumber": {
+      "Cucumber Downy Mildew": {
+        "description": "Downy mildew is caused by Pseudoperonospora cubensis and affects cucumber leaves",
+        "treatment": "Apply fungicides containing chlorothalonil or copper, improve air circulation",
+        "prevention": "Use resistant varieties, avoid overhead watering, maintain proper spacing"
+      },
+      "Cucumber Powdery Mildew": {
+        "description": "Powdery mildew is caused by Podosphaera xanthii and affects cucumber leaves",
+        "treatment": "Apply fungicides containing sulfur or potassium bicarbonate",
+        "prevention": "Use resistant varieties, improve air circulation, avoid overhead watering"
+      },
+      "Cucumber Anthracnose": {
+        "description": "Anthracnose in cucumbers is caused by Colletotrichum orbiculare",
+        "treatment": "Apply fungicides containing chlorothalonil, remove infected plant parts",
+        "prevention": "Practice crop rotation, avoid overhead watering, maintain field hygiene"
+      },
+      "Cucumber Healthy": {
+        "description": "Cucumber plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Lettuce": {
+      "Lettuce Downy Mildew": {
+        "description": "Downy mildew in lettuce is caused by Bremia lactucae",
+        "treatment": "Apply fungicides containing chlorothalonil, improve air circulation",
+        "prevention": "Use resistant varieties, avoid overhead watering, maintain proper spacing"
+      },
+      "Lettuce Bacterial Soft Rot": {
+        "description": "Bacterial soft rot is caused by Pectobacterium carotovorum",
+        "treatment": "Remove infected plants, improve drainage, avoid overhead watering",
+        "prevention": "Maintain proper soil drainage, avoid overwatering, practice crop rotation"
+      },
+      "Lettuce Healthy": {
+        "description": "Lettuce plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Carrot": {
+      "Carrot Leaf Blight": {
+        "description": "Leaf blight in carrots is caused by Alternaria dauci",
+        "treatment": "Apply fungicides containing chlorothalonil, remove infected foliage",
+        "prevention": "Practice crop rotation, avoid overhead watering, maintain proper spacing"
+      },
+      "Carrot Root Rot": {
+        "description": "Root rot in carrots is caused by various soilborne pathogens",
+        "treatment": "Improve soil drainage, apply fungicides, use resistant varieties",
+        "prevention": "Maintain proper soil drainage, practice crop rotation, avoid overwatering"
+      },
+      "Carrot Healthy": {
+        "description": "Carrot plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    }
+  },
+  "FRUITS": {
+    "Apple": {
+      "Apple Scab": {
+        "description": "Apple scab is caused by Venturia inaequalis and affects leaves and fruits",
+        "treatment": "Apply fungicides containing captan or sulfur, prune for air circulation",
+        "prevention": "Use resistant varieties, remove fallen leaves, maintain proper spacing"
+      },
+      "Apple Fire Blight": {
+        "description": "Fire blight is caused by Erwinia amylovora and affects blossoms and shoots",
+        "treatment": "Prune infected branches, apply copper sprays, use resistant varieties",
+        "prevention": "Avoid excessive nitrogen, prune during dry weather, use resistant varieties"
+      },
+      "Apple Powdery Mildew": {
+        "description": "Powdery mildew in apples is caused by Podosphaera leucotricha",
+        "treatment": "Apply fungicides containing sulfur or potassium bicarbonate",
+        "prevention": "Use resistant varieties, improve air circulation, avoid overhead watering"
+      },
+      "Apple Healthy": {
+        "description": "Apple trees appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, pruning, and pest management"
+      }
+    },
+    "Citrus": {
+      "Citrus Canker": {
+        "description": "Citrus canker is caused by Xanthomonas citri and affects leaves, stems, and fruits",
+        "treatment": "Apply copper-based bactericides, remove infected plant parts",
+        "prevention": "Use disease-free planting material, maintain field hygiene, control leaf miners"
+      },
+      "Citrus Greening": {
+        "description": "Citrus greening (HLB) is caused by Candidatus Liberibacter and transmitted by psyllids",
+        "treatment": "Control psyllid vectors, remove infected trees, use systemic insecticides",
+        "prevention": "Use disease-free planting material, monitor for psyllids, maintain tree health"
+      },
+      "Citrus Melanose": {
+        "description": "Melanose is caused by Diaporthe citri and affects citrus fruits and leaves",
+        "treatment": "Apply fungicides containing copper, prune for air circulation",
+        "prevention": "Remove dead wood, maintain proper spacing, apply preventive fungicides"
+      },
+      "Citrus Healthy": {
+        "description": "Citrus trees appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Grape": {
+      "Grape Downy Mildew": {
+        "description": "Downy mildew in grapes is caused by Plasmopara viticola",
+        "treatment": "Apply fungicides containing copper or fosetyl-aluminum",
+        "prevention": "Improve air circulation, avoid overhead watering, use resistant varieties"
+      },
+      "Grape Powdery Mildew": {
+        "description": "Powdery mildew in grapes is caused by Erysiphe necator",
+        "treatment": "Apply fungicides containing sulfur or potassium bicarbonate",
+        "prevention": "Use resistant varieties, improve air circulation, maintain proper spacing"
+      },
+      "Grape Black Rot": {
+        "description": "Black rot in grapes is caused by Guignardia bidwellii",
+        "treatment": "Apply fungicides containing captan or mancozeb, remove infected berries",
+        "prevention": "Improve air circulation, remove infected plant parts, practice crop rotation"
+      },
+      "Grape Healthy": {
+        "description": "Grape vines appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, pruning, and pest management"
+      }
+    },
+    "Strawberry": {
+      "Strawberry Powdery Mildew": {
+        "description": "Powdery mildew in strawberries is caused by Podosphaera aphanis",
+        "treatment": "Apply fungicides containing sulfur or potassium bicarbonate",
+        "prevention": "Use resistant varieties, improve air circulation, avoid overhead watering"
+      },
+      "Strawberry Gray Mold": {
+        "description": "Gray mold in strawberries is caused by Botrytis cinerea",
+        "treatment": "Apply fungicides containing captan or iprodione, remove infected fruits",
+        "prevention": "Improve air circulation, avoid overhead watering, maintain proper spacing"
+      },
+      "Strawberry Anthracnose": {
+        "description": "Anthracnose in strawberries is caused by Colletotrichum acutatum",
+        "treatment": "Apply fungicides containing azoxystrobin, remove infected plant parts",
+        "prevention": "Use disease-free plants, practice crop rotation, maintain field hygiene"
+      },
+      "Strawberry Healthy": {
+        "description": "Strawberry plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    }
+  },
+  "LEGUMES": {
+    "Soybean": {
+      "Soybean Rust": {
+        "description": "Soybean rust is caused by Phakopsora pachyrhizi and affects soybean leaves",
+        "treatment": "Apply fungicides containing azoxystrobin or pyraclostrobin",
+        "prevention": "Use resistant varieties, monitor weather conditions, apply preventive fungicides"
+      },
+      "Soybean Bacterial Blight": {
+        "description": "Bacterial blight in soybeans is caused by Pseudomonas syringae",
+        "treatment": "Apply copper-based bactericides, use resistant varieties",
+        "prevention": "Use disease-free seeds, avoid overhead irrigation, maintain field hygiene"
+      },
+      "Soybean Healthy": {
+        "description": "Soybean plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Bean": {
+      "Bean Anthracnose": {
+        "description": "Anthracnose in beans is caused by Colletotrichum lindemuthianum",
+        "treatment": "Apply fungicides containing chlorothalonil, use resistant varieties",
+        "prevention": "Use disease-free seeds, practice crop rotation, avoid overhead watering"
+      },
+      "Bean Rust": {
+        "description": "Bean rust is caused by Uromyces appendiculatus and affects bean leaves",
+        "treatment": "Apply fungicides containing azoxystrobin or propiconazole",
+        "prevention": "Use resistant varieties, practice crop rotation, maintain proper spacing"
+      },
+      "Bean Healthy": {
+        "description": "Bean plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    }
+  },
+  "ROOT CROPS": {
+    "Sweet Potato": {
+      "Sweet Potato Scab": {
+        "description": "Sweet potato scab is caused by Elsinoe batatas and affects storage roots",
+        "treatment": "Apply fungicides containing chlorothalonil, use resistant varieties",
+        "prevention": "Use disease-free planting material, practice crop rotation, maintain field hygiene"
+      },
+      "Sweet Potato Healthy": {
+        "description": "Sweet potato plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    },
+    "Cassava": {
+      "Cassava Mosaic Disease": {
+        "description": "Cassava mosaic disease is caused by cassava mosaic viruses transmitted by whiteflies",
+        "treatment": "Control whitefly populations, remove infected plants, use resistant varieties",
+        "prevention": "Use disease-free planting material, control weeds, monitor for whiteflies"
+      },
+      "Cassava Brown Streak Disease": {
+        "description": "Cassava brown streak disease is caused by cassava brown streak viruses",
+        "treatment": "Remove infected plants, control whitefly vectors, use resistant varieties",
+        "prevention": "Use disease-free planting material, maintain field hygiene, control vectors"
+      },
+      "Cassava Healthy": {
+        "description": "Cassava plants appear healthy with no visible disease symptoms",
+        "treatment": "Continue current care practices, monitor regularly for any changes",
+        "prevention": "Maintain proper nutrition, irrigation, and pest management"
+      }
+    }
+  }
+}
