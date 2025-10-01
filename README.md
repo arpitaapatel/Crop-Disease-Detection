@@ -1,4 +1,4 @@
-# Comprehensive Crop Disease Detection System
+#  Crop Disease Detection System
 
 A full-stack AI-powered application for detecting crop diseases from uploaded images across **all major crop types**. The system uses a fine-tuned MobileNetV2 model to classify **85+ disease classes** and provides comprehensive treatment recommendations for cereals, vegetables, fruits, legumes, and root crops.
 
