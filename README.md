@@ -328,8 +328,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Support
 
 For support and questions:
-- Create an issue on GitHub
-- Contact: [your-email@example.com]
+- Contact: arpitaadev.25@gmail.com
 
 ## 🔮 Future Enhancements
 
