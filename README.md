@@ -325,11 +325,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Next.js for frontend framework
 - Tailwind CSS for styling
 
-## 📞 Support
-
-For support and questions:
-- Contact: arpitaadev.25@gmail.com
-
 ## 🔮 Future Enhancements
 
 - [ ] Support for more crop types
